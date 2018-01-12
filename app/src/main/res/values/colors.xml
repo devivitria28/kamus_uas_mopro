@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b97005</color>
+    <color name="colorPrimaryDark">#b97005</color>
+    <color name="colorAccent">#f935a7</color>
+    <color name="MyTheme">#edb666</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff3333</color>
+    <color name="yellow">#fdfd07</color>
+    <color name="blue">#5544ff</color>
+    <color name="violet">#aa00ff</color>
+    <color name="white">#ffffff</color>
+
+    <color name="black_overlay">#6a000000</color>
+</resources>

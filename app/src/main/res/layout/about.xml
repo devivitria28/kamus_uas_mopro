@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="40dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="156dp"
+            android:layout_height="233dp"
+            android:layout_gravity="center"
+            android:src="@drawable/iconkamus" />
+
+        <TextView
+            android:layout_width="286dp"
+            android:layout_height="31dp"
+            android:layout_below="@+id/logo"
+            android:layout_gravity="center"
+            android:text="English Dictionary (EngDict) Version 1.0"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp">
+
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="31dp"
+            android:text="Authors : "
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1147050029 Ayu Isnaini"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1147050040 Devi Novitasari"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1147050041 Devi Vitria"
+            android:paddingLeft="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copyright &#169; 2017 UIN Sunan Gunung Djati"/>
+
+    </LinearLayout>
+</LinearLayout>
